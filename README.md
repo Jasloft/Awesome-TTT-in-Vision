@@ -17,6 +17,7 @@ TTT Layers: [![Star](https://img.shields.io/github/stars/test-time-training/ttt-
 * [Related TTT in Vision](#related-ttt-in-vision)
 
   * [Vision Backbone](#vision-backbone)
+  * [Visual Robustness and Adaptation](#visual-robustness-and-adaptation)
   * [Image Restoration](#image-restoration)
   * [Image Segmentation](#image-segmentation)
   * [Video Generation and Understanding](#video-generation-and-understanding)
@@ -54,6 +55,12 @@ TTT Layers: [![Star](https://img.shields.io/github/stars/test-time-training/ttt-
 | Vision-TTT: Efficient and Expressive Visual Representation Learning with Test-Time Training | arXiv 2026     | N/A                                                                                                                               | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2603.00518) |
 | AU-TTT: Vision Test-Time Training model for Facial Action Unit Detection                    | ICME 2025      | N/A                                                                                                                               | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.23450) |
 
+### Visual Robustness and Adaptation
+
+| Title                                       | Venue / Year | Code                                                                                                                                                                          | Link                                                                                        |
+| :------------------------------------------ | :----------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
+| Test-Time Training with Masked Autoencoders | NeurIPS 2022 | [![Star](https://img.shields.io/github/stars/yossigandelsman/test_time_training_mae.svg?style=social\&label=Star)](https://github.com/yossigandelsman/test_time_training_mae) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2209.07522) |
+
 ### Image Restoration
 
 | Title                                                                                    | Venue / Year | Code                                                                                                                                        | Link                                                                                                                                                                                                  |
@@ -73,22 +80,27 @@ TTT Layers: [![Star](https://img.shields.io/github/stars/test-time-training/ttt-
 | Title                                                                               | Venue / Year | Code                                                                                                                                                              | Link                                                                                        |
 | :---------------------------------------------------------------------------------- | :----------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
 | One-Minute Video Generation with Test-Time Training                                 | CVPR 2025    | [![Star](https://img.shields.io/github/stars/test-time-training/ttt-video-dit.svg?style=social\&label=Star)](https://github.com/test-time-training/ttt-video-dit) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.05298) |
+| Test-Time Training on Video Streams                                                 | JMLR 2025    | [![Star](https://img.shields.io/github/stars/test-time-training/ttt-video.svg?style=social\&label=Star)](https://github.com/test-time-training/ttt-video)         | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2307.05014) |
 | CustomTTT: Motion and Appearance Customized Video Generation via Test-Time Training | AAAI 2025    | [![Star](https://img.shields.io/github/stars/rongpiking/customttt.svg?style=social\&label=Star)](https://github.com/rongpiking/customttt)                         | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.15646) |
 
 ### Medical Vision
 
-| Title                                                                                      | Venue / Year | Code                                                                                                                                  | Link                                                                                        |
-| :----------------------------------------------------------------------------------------- | :----------- | :------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------ |
-| Med-TTT: Vision Test-Time Training model for Medical Image Segmentation                    | arXiv 2024   | [![Star](https://img.shields.io/github/stars/Jiashu-Xu/Med-TTT.svg?style=social\&label=Star)](https://github.com/Jiashu-Xu/Med-TTT)   | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.02523) |
-| TTT-UNet: Enhancing U-Net with Test-Time Training Layers for Biomedical Image Segmentation | arXiv 2024   | [![Star](https://img.shields.io/github/stars/rongzhou7/TTT-Unet.svg?style=social\&label=Star)](https://github.com/rongzhou7/TTT-Unet) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.11299) |
-| U-TTT: Towards Generalizable PET Image Denoising via Test-Time Training                    | arXiv 2026   | [Code](https://github.com/Yaziwel/U-TTT)                                                                                              | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2606.11032) |
+| Title                                                                                      | Venue / Year | Code                                                                                                                                          | Link                                                                                        |
+| :----------------------------------------------------------------------------------------- | :----------- | :-------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
+| Med-TTT: Vision Test-Time Training model for Medical Image Segmentation                    | arXiv 2024   | [![Star](https://img.shields.io/github/stars/Jiashu-Xu/Med-TTT.svg?style=social\&label=Star)](https://github.com/Jiashu-Xu/Med-TTT)           | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.02523) |
+| TTT-UNet: Enhancing U-Net with Test-Time Training Layers for Biomedical Image Segmentation | arXiv 2024   | [![Star](https://img.shields.io/github/stars/rongzhou7/TTT-Unet.svg?style=social\&label=Star)](https://github.com/rongzhou7/TTT-Unet)         | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.11299) |
+| Test Time Training for 4D Medical Image Interpolation                                      | arXiv 2025   | [![Star](https://img.shields.io/github/stars/ChaosTheProducer/TTT4D.svg?style=social\&label=Star)](https://github.com/ChaosTheProducer/TTT4D) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.02341) |
+| U-TTT: Towards Generalizable PET Image Denoising via Test-Time Training                    | arXiv 2026   | [Code](https://github.com/Yaziwel/U-TTT)                                                                                                      | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2606.11032) |
 
 ### 3D Vision and Reconstruction
 
 | Title                                                                            | Venue / Year        | Code                                                                                                                                | Link                                                                                        |
 | :------------------------------------------------------------------------------- | :------------------ | :---------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
 | VGG-T³: Offline Feed-Forward 3D Reconstruction at Scale                          | CVPR 2026           | [Project](https://research.nvidia.com/labs/dvl/projects/vgg-ttt/)                                                                   | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2602.23361) |
+| TTT3R: 3D Reconstruction as Test-Time Training                                   | arXiv 2025          | [![Star](https://img.shields.io/github/stars/Inception3D/TTT3R.svg?style=social\&label=Star)](https://github.com/Inception3D/TTT3R) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2509.26645) |
+| Scal3R: Scalable Test-Time Training for Large-Scale 3D Reconstruction            | CVPR 2026           | [![Star](https://img.shields.io/github/stars/zju3dv/Scal3R.svg?style=social\&label=Star)](https://github.com/zju3dv/Scal3R)         | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2604.08542) |
 | tttLRM: Test-Time Training for Long Context and Autoregressive 3D Reconstruction | CVPR 2026 Highlight | [![Star](https://img.shields.io/github/stars/cwchenwang/tttLRM.svg?style=social\&label=Star)](https://github.com/cwchenwang/tttLRM) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2602.20160) |
+| MATE: Masked Autoencoders are Online 3D Test-Time Learners                       | ICCV 2023           | [![Star](https://img.shields.io/github/stars/jmiemirza/MATE.svg?style=social\&label=Star)](https://github.com/jmiemirza/MATE)       | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2211.11432) |
 
 ### Vision-Language and Spatial Intelligence
 
@@ -99,36 +111,12 @@ TTT Layers: [![Star](https://img.shields.io/github/stars/test-time-training/ttt-
 
 ## Foundations
 
-| Title                                                                                 | Venue / Year | Code                                                                                                                                                                | Link                                                                                                                                                           |
-| :------------------------------------------------------------------------------------ | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Test-Time Training with Self-Supervision for Generalization under Distribution Shifts | ICML 2020    | N/A                                                                                                                                                                 | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1909.13231)                                                                    |
-| TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?                   | NeurIPS 2021 | [![Star](https://img.shields.io/github/stars/vita-epfl/ttt-plus-plus.svg?style=social\&label=Star)](https://github.com/vita-epfl/ttt-plus-plus)                     | [![PDF](https://img.shields.io/badge/PDF-NeurIPS-blue)](https://proceedings.neurips.cc/paper_files/paper/2021/file/b618c3210e934362ac261db280128c22-Paper.pdf) |
-| Learning to (Learn at Test Time): RNNs with Expressive Hidden States                  | ICML 2024    | [![Star](https://img.shields.io/github/stars/test-time-training/ttt-lm-pytorch.svg?style=social\&label=Star)](https://github.com/test-time-training/ttt-lm-pytorch) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.04620)                                                                    |
-| Test-Time Training with KV Binding Is Secretly Linear Attention                       | arXiv 2026   | [Project](https://research.nvidia.com/labs/sil/projects/tttla/)                                                                                                     | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2602.21204)                                                                    |
+| Title                                                                                 | Venue / Year | Code                                                                                                                                                                          | Link                                                                                                                                                           |
+| :------------------------------------------------------------------------------------ | :----------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Test-Time Training with Self-Supervision for Generalization under Distribution Shifts | ICML 2020    | N/A                                                                                                                                                                           | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1909.13231)                                                                    |
+| TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?                   | NeurIPS 2021 | [![Star](https://img.shields.io/github/stars/vita-epfl/ttt-plus-plus.svg?style=social\&label=Star)](https://github.com/vita-epfl/ttt-plus-plus)                               | [![PDF](https://img.shields.io/badge/PDF-NeurIPS-blue)](https://proceedings.neurips.cc/paper_files/paper/2021/file/b618c3210e934362ac261db280128c22-Paper.pdf) |
+| Test-Time Training with Masked Autoencoders                                           | NeurIPS 2022 | [![Star](https://img.shields.io/github/stars/yossigandelsman/test_time_training_mae.svg?style=social\&label=Star)](https://github.com/yossigandelsman/test_time_training_mae) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2209.07522)                                                                    |
+| Learning to (Learn at Test Time): RNNs with Expressive Hidden States                  | ICML 2024    | [![Star](https://img.shields.io/github/stars/test-time-training/ttt-lm-pytorch.svg?style=social\&label=Star)](https://github.com/test-time-training/ttt-lm-pytorch)           | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2407.04620)                                                                    |
+| Test-Time Training with KV Binding Is Secretly Linear Attention                       | arXiv 2026   | [Project](https://research.nvidia.com/labs/sil/projects/tttla/)                                                                                                               | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2602.21204)                                                                    |
 
-## Related Awesome Lists
 
-| Title                                       | Link                                                                            |
-| :------------------------------------------ | :------------------------------------------------------------------------------ |
-| Awesome Test-Time Adaptation                | [LINK](https://github.com/tim-learn/awesome-test-time-adaptation)               |
-| Beyond Model Adaptation at Test Time Papers | [LINK](https://github.com/zzzx1224/Beyond-model-adaptation-at-test-time-Papers) |
-
-## Notes
-
-This list is a work in progress.
-
-For the **Papers Citing ViT³** section, papers should be added only when they are verified to cite or closely follow **ViT³: Unlocking Test-Time Training in Vision**.
-
-For the **Related TTT in Vision** section, papers should satisfy at least one of the following conditions:
-
-* The paper explicitly uses Test-Time Training in a visual task.
-* The paper uses TTT layers or TTT-style sequence modeling in vision, video, medical imaging, 3D vision, or vision-language tasks.
-* The paper provides theoretical or architectural insights that are directly relevant to visual TTT.
-
-## Contributing
-
-If you find missing papers, code repositories, or useful resources, please feel free to open an issue or submit a pull request.
-
-## Acknowledgement
-
-This repository is inspired by community-maintained awesome lists, especially [Awesome-RWKV-in-Vision](https://github.com/Yaziwel/Awesome-RWKV-in-Vision).

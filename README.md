@@ -106,11 +106,13 @@ TTT Layers: [![Star](https://img.shields.io/github/stars/test-time-training/ttt-
 
 ### Vision-Language and Spatial Intelligence
 
-| Title                                                                            | Venue / Year | Code                                                                                                                                      | Link                                                                                        |
-| :------------------------------------------------------------------------------- | :----------- | :---------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------ |
-| Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training | arXiv 2026   | [![Star](https://img.shields.io/github/stars/THU-SI/Spatial-TTT.svg?style=social\&label=Star)](https://github.com/THU-SI/Spatial-TTT)     | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2603.12255) |
-| Test-Time Training for Visual Foresight Vision-Language-Action Models            | arXiv 2026   | [![Star](https://img.shields.io/github/stars/sangwu99/T3VF.svg?style=social\&label=Star)](https://github.com/sangwu99/T3VF)               | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2605.08215) |
-| LoRA-TTT: Low-Rank Test-Time Training for Vision-Language Models                 | arXiv 2025   | [![Star](https://img.shields.io/github/stars/ykojima4020/LoRA-TTT.svg?style=social\&label=Star)](https://github.com/ykojima4020/LoRA-TTT) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.02069) |
+| Title | Venue / Year | Code | Link |
+| :---- | :----------- | :--- | :--- |
+| Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training | arXiv 2026 | [![Star](https://img.shields.io/github/stars/THU-SI/Spatial-TTT.svg?style=social\&label=Star)](https://github.com/THU-SI/Spatial-TTT) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2603.12255) |
+| Test-Time Training for Visual Foresight Vision-Language-Action Models | arXiv 2026 | [![Star](https://img.shields.io/github/stars/sangwu99/T3VF.svg?style=social\&label=Star)](https://github.com/sangwu99/T3VF) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2605.08215) |
+| EVOLVE-VLA: Test-Time Training from Environment Feedback for Vision-Language-Action Models | arXiv 2025 | [Project](https://github.com/showlab/EVOLVE-VLA) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2512.14666) |
+| Test-Time Perturbation Tuning with Delayed Feedback for Vision-Language-Action Models | CVPR 2026 | [![Star](https://img.shields.io/github/stars/zhoujiahuan1991/CVPR2026-PDF.svg?style=social\&label=Star)](https://github.com/zhoujiahuan1991/CVPR2026-PDF) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2604.18107) |
+| LoRA-TTT: Low-Rank Test-Time Training for Vision-Language Models | arXiv 2025 | [![Star](https://img.shields.io/github/stars/ykojima4020/LoRA-TTT.svg?style=social\&label=Star)](https://github.com/ykojima4020/LoRA-TTT) | [![arXiv](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.02069) |
 
 ## Foundations
 
